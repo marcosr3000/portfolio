@@ -23,6 +23,7 @@
 body {
     font-family: var(--fonte-padrão);
     background-color: #85def21b;
+    padding: 0px 10px 0px 10px;
 }
 
 header {
@@ -31,7 +32,7 @@ header {
     color: white;
     text-shadow: 1px 1px 1px grey;
     padding: 10px;
-    margin-bottom: 40px;
+    margin: 0px -10px 40px -10px;
 }
 
 header>h1 {
@@ -132,5 +133,5 @@ footer {
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
-    margin-top: 40px;
+    margin: 40px -10px 0px -10px;
 }
