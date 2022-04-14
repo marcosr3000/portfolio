@@ -50,6 +50,7 @@ nav {
     
 
 nav a {
+    display: inline-block;
     text-decoration: none;
     color: white;
     font-weight: bold;

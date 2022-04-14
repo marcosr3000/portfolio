@@ -11,8 +11,8 @@
 
 :root {
     --fonte-destaque: 'Bebas Neue';
-    --fonte-título: 'Game Over';
-    --fonte-padrão: 'Open Sans', Arial, Helvetica, sans-serif;
+    --fonte-titulo: 'Game Over';
+    --fonte-padrao: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -21,7 +21,7 @@
 }
 
 body {
-    font-family: var(--fonte-padrão);
+    font-family: var(--fonte-padrao);
     background-color: #85def21b;
     padding: 0px 10px 0px 10px;
 }
@@ -49,7 +49,7 @@ nav {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
-    font-family: var(--fonte-padrão);
+    font-family: var(--fonte-padrao);
     font-size: 0.9em;
     color: white;
     padding: 10px;
@@ -92,7 +92,7 @@ main {
 }
 
 main>h1 {
-    font-family: var(--fonte-título);
+    font-family: var(--fonte-titulo);
     font-weight: lighter;
     font-size: 1.5em;
     color: white;
@@ -103,6 +103,7 @@ main>h1 {
 }
 
 main p {
+    font-family: var(--fonte-padrao);
     margin-bottom: 15px;
     line-height: 1.5em;
     text-align: justify;
@@ -129,7 +130,7 @@ img:hover {
 
 footer {
     background-color: #292929;
-    font-family: var(--fonte-padrão);
+    font-family: var(--fonte-padrao);
     color: white;
     text-align: center;
     font-size: 0.8em;
