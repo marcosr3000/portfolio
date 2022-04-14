@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Minha Coleção de Games</title>
+    <link rel="stylesheet" href="style-subpages.css">
+    <style>
+        @font-face {
+            font-family: 'New Mario DS';
+            src: url(fonts/smbfont.ttf) format('truetype');
+        }    
+        
+        body {
+            background-color: #f2b95065;
+        }
+        
+        main {
+            background-color: #04B2D9;           
+        }
+        
+        .infos > h1 {
+            font-family: 'New Mario DS', Arial, Helvetica, sans-serif;
+            font-size: 4em;
+            color: black;
+            text-shadow: 5px 5px 50px white;
+        }
+
+        h2 {
+            background-color: yellow;   
+        }
+
+        .links {
+            background-color: #2957A7;
+            color: white;
+        }
+
+        .liks > a {
+            color: white
+        }
+           
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Armário <br>dos Games</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a class="link-atual" href="games-por-console/ds.html">Nintendo DS</a>
+            <a href="games-por-console/3ds.html">Nintendo 3DS</a>
+            <a href="games-por-console/wii.html">Nintendo Wii</a>
+            <a href="games-por-console/wiiu.html">Nintendo Wii U</a>
+            <a href="games-por-console/switch.html">Nintendo Switch</a>
+            <a href="games-por-console/steam.html">Steam</a>
+        </nav>
+        <a href="index.html" target="_self" rel="_prev"><img src="imagens/voltar.png" alt="Botão de Voltar"></a>
+    </header>
+    <main>
+    <div class="imagem">
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens-grandes/newmariods-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens-grandes/newmariods-m.png" type="image/png">
+        <img class="capa" src="imagens-grandes/newmariods-m.png" alt="New Super Mario Bros. Cover">
+    </picture>
+    </div>
+    <div class="infos">
+    <h1>NEW SUPER MARIO BROS.</h1>
+    
+    <audio preload="autoplay" autoplay controls>
+        <source src="audios/newmariods-mp3.mp3" type="audio/mpeg">
+        <source src="audios/newmariods-ogg.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não é compatível com áudio</p>
+    </audio>
+    
+    <h2>Informações do jogo</h2>
+        <p class="main-text">
+        <strong>Developer:</strong> Nintendo EAD<BR>
+        <strong>Publisher:</strong> Nintendo<br>
+        <strong>Plataforma(s):</strong> Nintendo DS, Virtual Console Wii U<br>
+        <strong>Lançamento:</strong> 15/05/2006 (EUA), 25/05/2006 (Japão)<br>
+        <strong>Gênero: </strong> Plataforma<br>
+        </p>
+
+    <h2>Informações da minha cópia</h2>
+        <p class="main-text">
+        <strong>Status:</strong> Platinado <br>
+        <strong>Mídia: </strong> Física <br>
+        <strong>Data de Aquisição:</strong> 15/05/2020 <br>
+        <strong>Loja:</strong> Enjoei.com <br>
+        </p>
+
+      
+    </div>
+    <div class="links">
+        Links 
+        <a href="#">Página Oficial</a>
+        <a href="#">Mario Wiki</a>
+        <a href="#">Wikipedia (Inglês)</a>
+        <a href="#">Trailer</a>
+    </div>
+        
+   
+    
+    
+    
+    </main>
+    <footer>
+        <p>
+            Site criado por Marcos Roberto.
+        </p>
+    </footer>
+</body>
+</html>

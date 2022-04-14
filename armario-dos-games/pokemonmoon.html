@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Coleção de Games</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style-subpages.css">
+    <style>
+        @font-face {
+            font-family: 'Pokemon';
+            src: url(fonts/pokemon-solid.ttf) format('truetype');
+        }
+
+        body {
+            background-color: #25a6d990;
+        }
+
+        main {
+            background-color: #61358c5d;
+        }
+
+        h1 {
+            font-family: 'Pokemon', Arial, Helvetica, sans-serif;
+            font-size: 3em;
+            color: black;
+            text-shadow: 5px 5px 50px white;
+        }
+
+        h2 {
+            background-color: #F2B705;
+        }
+
+        .links {
+            background-color: #362D73;
+            color: white
+        }
+
+        .links > a {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <a href="index.html" target="_self" rel="prev"><img src="imagens/voltar.png" alt="Botão de Voltar"></a>
+    </p>
+    <main>
+        <div class="imagem">
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens-grandes/pokemonmoon-p.png" type="image/png">
+                <img class="capa" src="imagens-grandes/pokemonmoon-m.png" alt="Pokémon Moon Cover">
+            </picture>
+        </div>
+        <div class="infos">
+            <h1>Pokémon Moon</h1>
+            <audio preload="metadata" controls autoplay>
+                <source src="audios/pokemonmoon-mp3.mp3" type="audio/mpeg">
+                <source src="audios/pokemonmoon-ogg.ogg" type="audio/ogg">
+                <p>Infelizmente seu navegador não é compatível com áudio.</p>
+            </audio>
+            <h2>Informações do jogo</h2>
+            <p class="main-text">
+                <strong>Developer:</strong> Game Freak<BR>
+                <strong>Publisher:</strong> Nintendo<br>
+                <strong>Plataforma(s):</strong> Nintendo 3DS<br>
+                <strong>Lançamento:</strong> 18/11/2016 (EUA), 18/11/2016 (Japão)<br>
+                <strong>Gênero: </strong> Plataforma
+                </p>
+            <h2>Informações da minha cópia</h2>
+                <p class="main-text">
+                <strong>Status:</strong> Abandonado <br>
+                <strong>Mídia: </strong> Física <br>
+                <strong>Data de Aquisição:</strong> 21/11/2016<br>
+                <strong>Loja:</strong> Glaydson Games <br>
+            </p>
+        </div>
+        <div class="links">
+            Links 
+            <a href="#">Página Oficial</a>
+            <a href="#">Bulbapedia</a>
+            <a href="#">Wikipedia (Inglês)</a>
+            <a href="#">Trailer</a>
+        </div>
+    </main>
+</body>
+</html>

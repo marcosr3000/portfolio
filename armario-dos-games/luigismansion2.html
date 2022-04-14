@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Minha Coleção de Games</title>
+    <link rel="stylesheet" href="style-subpages.css">
+    <style>
+        @font-face {
+            font-family: 'Delfino';
+            src: url(fonts/Delfino.ttf) format('truetype'), url(fonts/Delfino.otf) format('opentype');
+        }
+        body {
+            background-color: #d4d9483b;
+        }
+
+        main {
+            background-color: #8cbf3f9e;
+        }
+
+        h1 {
+            font-family: 'Delfino', Arial, Helvetica, sans-serif;
+            font-size: 3em;
+            color: black;
+            text-shadow: 5px 5px 50px white;
+        }    
+        h2 {
+            background-color: #5F3461;
+            color: white;
+        }
+        
+        .links {
+            background-color: #417573;
+            color: white;
+        }
+
+        .links > a {
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" target="_self" rel="prev"><img src="imagens/voltar.png" alt="Botão Voltar"></a>
+    </header>
+    <main>
+        <div class="imagem">
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens-grandes/luigismansion2-p.jpeg" type="image/jpeg">
+                <img class="capa" src="imagens-grandes/luigismansion2-m.jpeg" alt="Luigi's Mansion: Dark Moon Cover">
+            </picture>
+        </div>
+        <div class="infos">
+            <h1>Luigi's Mansion: Dark Moon</h1>
+            <audio preload="metadata" controls autoplay>
+                <source src="audios/luigismansion2-mp3.mp3" type="audio/mpeg">
+                <source src="audios/luigismansion2-ogg.ogg" type="audio/ogg">
+                <p>Infelizmente seu navegador não é compatível com áudio.</p>
+            </audio>
+
+            <h2>Informações do jogo</h2>
+            <p class="main-text">
+            <strong>Developer:</strong> Next Level Games<BR>
+            <strong>Publisher:</strong> Nintendo<br>
+            <strong>Plataforma(s):</strong> Nintendo 3DS<br>
+            <strong>Lançamento:</strong> 24/03/2013 (EUA), 20/03/2013 (Japão)<br>
+            <strong>Gênero: </strong> Ação-aventura
+            </p>
+
+            <h2>Informações da minha cópia</h2>
+            <p class="main-text">
+            <strong>Status:</strong> Finalizado <br>
+            <strong>Mídia: </strong> Física <br>
+            <strong>Data de Aquisição:</strong> 09/2015<br>
+            <strong>Loja:</strong> Americanas.com <br>
+            </p>
+        </div>
+        <div class="links">
+            Links 
+            <a href="#">Página Oficial</a>
+            <a href="#">Mario Wiki</a>
+            <a href="#">Wikipedia (Inglês)</a>
+            <a href="#">Trailer</a>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>

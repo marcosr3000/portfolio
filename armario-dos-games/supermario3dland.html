@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Coleção de Games</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style-subpages.css">
+
+    <style>
+        @font-face {
+            font-family: 'Super Mario 256';
+            src: url(fonts/SuperMario256.ttf) format('truetype');
+        }
+
+        body {
+            background-color: grey;
+        }
+
+        main {
+            background-color: gainsboro;
+        }
+
+        h1 {
+            font-family: 'Super Mario 256', Arial, Helvetica, sans-serif;
+            font-size: 3em;
+            color: black;
+            text-shadow: 5px 5px 50px white;
+        }
+
+        h2 {
+            background-color: #F21905;
+            color: white;
+        }
+
+        .links {
+            background-color: #07419A;
+            color: white;
+        }
+
+        .links > a {
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" target="_self" rel="prev"><img src="imagens/voltar.png" alt="Botão de Voltar"></a>
+    </header>
+    <main>
+        <div class="imagem">
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens-grandes/supermario3dland-p.png" type="image/png">
+                <img class="capa" src="imagens-grandes/supermario3dland-m.png" alt="Super Mario 3D Land Coer">
+            </picture>
+        </div>
+        <div class="infos">
+            <h1>Super Mario <br>3D Land</h1>
+            <audio preload="metadata" controls autoplay>
+                <source src="audios/supermari3dland-mp3.mp3" type="audio/mpeg">
+                <source src="audios/supermari3dland-ogg.ogg" type="audio/ogg">
+                <p>Infelizmente seu navegador não é compatível com áudio.</p>
+            </audio>
+            <h2>Informações do jogo</h2>
+            <p class="main-text">
+            <strong>Developer:</strong> Nintendo<BR>
+            <strong>Publisher:</strong> Nintendo<br>
+            <strong>Plataforma(s):</strong> Nintendo 3DS<br>
+            <strong>Lançamento:</strong> 13/11/2011 (EUA), 03/11/2011 (Japão)<br>
+            <strong>Gênero: </strong> Plataforma
+            </p>
+            <h2>Informações da minha cópia</h2>
+            <p class="main-text">
+            <strong>Status:</strong> Finalizado <br>
+            <strong>Mídia: </strong> Física <br>
+            <strong>Data de Aquisição:</strong> 03/06/2015<br>
+            <strong>Loja:</strong> Ultra Games (Uberlândia) <br>
+            </p>
+        </div>
+        <div class="links">
+            Links 
+            <a href="#">Página Oficial</a>
+            <a href="#">Mario Wiki</a>
+            <a href="#">Wikipedia (Inglês)</a>
+            <a href="#">Trailer</a>
+        </div>
+    </main>
+</body>
+</html>
