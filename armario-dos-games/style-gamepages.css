@@ -7,7 +7,7 @@
 :root {
     --fonte-destaque: 'Bebas Neue';
     --fonte-padrão: 'Open Sans', Arial, Helvetica, sans-serif;
-        }
+}
 
 body {
     background-color: white;
@@ -24,7 +24,6 @@ header {
     text-shadow: 1px 1px 1px grey;
     padding: 10px;
     margin: 0px -10px 40px -10px;
-
 }
 
 header > h1 {
@@ -35,7 +34,6 @@ header > h1 {
     vertical-align: middle;
     text-align: center;
     margin: 0;
-    
 }
 
 nav {
@@ -47,9 +45,7 @@ nav {
     color: white;
     padding: 10px;
     text-shadow: 1px 1px 1px grey;
-    }
-
-    
+}
 
 nav a {
     display: inline-block;
@@ -60,10 +56,10 @@ nav a {
     transition-duration: 0.5s;
 }
 
-.link-atual {
+a.pagina-atual {
     background-color: #29B8E2;
     border-radius: 5px;
-    }
+}
 
 nav a:hover {
     background-color: #F0615C;
@@ -77,8 +73,7 @@ main {
     max-width: 1000px;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px black;
-                
+    box-shadow: 1px 1px 10px black;                
 }
 
 div {
@@ -89,25 +84,24 @@ div {
     padding: 0px;
 }
 
-.imagem {
+div.imagem {
     padding: 20px 10px 20px 20px; 
     
 }
 
-.infos {
+img.capa {
+    box-shadow: 2px 2px 10px black;
+}
+
+div.infos {
     min-width: 270px;
     max-width: 445px;
     padding: 20px 10px 0px 10px;
 }
 
-.capa {
-    box-shadow: 2px 2px 10px black;
-}
-
-.infos > h1 {
+div.infos > h1 {
     margin: 0px;
-    padding: 0px;
-    
+    padding: 0px;    
 }
 
 audio {
@@ -121,8 +115,7 @@ h2 {
     width: fit-content;
     padding: 2px 10px;
     border-radius: 4px 0px 4px 0px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.092);
-   
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.092);   
 }
 
 main > p {
@@ -146,8 +139,7 @@ main > p {
     font-weight: lighter;
     min-width: 270px;
     max-width: 994px;
-    margin: auto;
-    
+    margin: auto;    
 }
 
 .links > a {
@@ -176,5 +168,5 @@ footer {
 }
 
 footer > p {
-    margin: 0;
+    margin: auto;
 }
