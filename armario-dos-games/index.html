@@ -39,7 +39,10 @@
         <h1>Hello, World!</h1>
         <br>
         <div class="foto">
-            <img src="imagens-grandes/minha-foto-m2.jpeg" alt="Foto do Marcos">
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens-grandes/minha-foto-m3.jpeg" type="image/jpeg">
+                <img src="imagens-grandes/minha-foto-m2.jpeg" alt="Foto do Marcos">
+            </picture>
         </div>
         <div class="texto">
             <p>Obrigado pela visita! Seja bem vindo. Meu nome é <strong>Marcos Roberto</strong>. Sou apaixonado por tecnologia e games.</p> 
