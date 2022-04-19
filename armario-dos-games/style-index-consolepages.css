@@ -107,6 +107,10 @@ main p {
     text-align: justify;
 }
 
+main a {
+    text-decoration: none;
+}
+
 strong {
     background-color: #29b7e277;
     padding: 0px 5px 0px 5px;
@@ -122,6 +126,20 @@ img {
 img:hover {
     box-shadow: 0px 0px 0px 5px #F0615C;
 
+}
+
+section {
+    background-color: #f0615c5f;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1.5px 1px 10px black;
+}
+
+section > h2, img {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
 }
 
 footer {
