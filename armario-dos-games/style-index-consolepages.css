@@ -56,6 +56,7 @@ nav {
     color: white;
     padding: 10px;
     text-shadow: 1px 1px 1px grey;
+    max-width: 100%;
 }
 
 nav a {
@@ -63,8 +64,9 @@ nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 10px;
     transition-duration: 0.5s;
+    width: 120px;
 }
 
 a.pagina-atual {
