@@ -93,6 +93,7 @@ nav a {
     nav {
         font-size: 0.75em;
         width: 73vw;
+        padding-left: 15px;
     }
     nav a {
         width: 100px;
