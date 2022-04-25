@@ -85,6 +85,20 @@ nav a {
     width: 120px;
 }
 
+@media screen and (max-width: 1050px) {
+    header > h1 {
+        width: ;
+    }
+    
+    nav {
+        font-size: 0.65em;
+        width: ;
+    }
+    nav a {
+        width: 90px;
+    }
+}
+
 a.pagina-atual {
     background-color: #29B8E2;
     border-radius: 5px;
