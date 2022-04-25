@@ -87,15 +87,15 @@ nav a {
 
 @media screen and (max-width: 1050px) {
     header > h1 {
-        width: ;
+        width: 20vw;
     }
     
     nav {
-        font-size: 0.65em;
-        width: ;
+        font-size: 0.75em;
+        width: 73vw;
     }
     nav a {
-        width: 90px;
+        width: 100px;
     }
 }
 
