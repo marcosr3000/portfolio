@@ -46,8 +46,9 @@ header > h1 {
     text-align: center;
     margin: auto;
     width: 25vw;
-    : ;
 }
+
+
 
 nav {
     display: inline-block;
@@ -61,6 +62,18 @@ nav {
     width: 68vw;
     
 }
+
+@media screen and (max-width: 750px) {
+    header > h1 {
+       font-size: 40px;
+       text-align: center;
+       width: 50vw;
+    }
+    nav {
+        font-size: 0.8em;
+        width: 43vw;
+    }
+  }
 
 nav a {
     display: inline-block;
