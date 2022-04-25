@@ -15,14 +15,19 @@
 
         div.texto {
             display: inline-block;
-            min-width: 270px;
-            max-width: 625px;
+            width: 625px;
             padding: 20px 10px 0px 10px;    
         }
 
         @media screen and (max-width: 1050px) {
             div.texto {
                 width: 595px;
+            }
+        }
+
+        @media screen and (max-width: 750px) {
+            div.texto {
+                width: 270px;
             }
         }
     </style>

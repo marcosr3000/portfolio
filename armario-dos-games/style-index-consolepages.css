@@ -63,17 +63,9 @@ nav {
     
 }
 
-@media screen and (max-width: 750px) {
-    header > h1 {
-       font-size: 40px;
-       text-align: center;
-       width: 50vw;
-    }
-    nav {
-        font-size: 0.8em;
-        width: 43vw;
-    }
-  }
+
+
+
 
 nav a {
     display: inline-block;
@@ -85,20 +77,7 @@ nav a {
     width: 120px;
 }
 
-@media screen and (max-width: 1050px) {
-    header > h1 {
-        width: 20vw;
-    }
-    
-    nav {
-        font-size: 0.75em;
-        width: 73vw;
-        padding-left: 15px;
-    }
-    nav a {
-        width: 100px;
-    }
-}
+
 
 a.pagina-atual {
     background-color: #29B8E2;
@@ -187,4 +166,33 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    header > h1 {
+       font-size: 40px;
+       text-align: center;
+       width: 50vw;
+    }
+    nav {
+        font-size: 0.8em;
+        width: 43vw;
+    }
+}
+
+@media screen and (max-width: 1050px) and (min-width: 749px) {
+    header > h1 {
+        width: 20vw;
+    }
+    
+    nav {
+        font-size: 0.75em;
+        width: 73vw;
+        padding-left: 15px;
+    }
+    nav a {
+        width: 100px;
+    }
 }
