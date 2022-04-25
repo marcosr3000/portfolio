@@ -33,18 +33,20 @@ header {
     min-height: 120px;
     color: white;
     text-shadow: 1px 1px 1px grey;
-    padding: 10px;
+    padding: 10px 10px;
     margin: 0px -10px 40px -10px;
 }
 
 header > h1 {
     font-family: var(--fonte-destaque);
-    font-size: 3em;
+    font-size: 4.5vw;
     font-style: italic;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
     margin: auto;
+    width: 25vw;
+    : ;
 }
 
 nav {
@@ -54,9 +56,10 @@ nav {
     font-family: var(--fonte-padrao);
     font-size: 0.9em;
     color: white;
-    padding: 10px;
+    
     text-shadow: 1px 1px 1px grey;
-    max-width: 100%;
+    width: 68vw;
+    
 }
 
 nav a {
