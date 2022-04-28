@@ -20,31 +20,37 @@ body {
 
 header {
     background-color: #292929;
+    min-height: 120px;
     color: white;
     text-shadow: 1px 1px 1px grey;
-    padding: 10px;
+    padding: 10px 10px;
     margin: 0px -10px 40px -10px;
 }
 
 header > h1 {
     font-family: var(--fonte-destaque);
-    font-size: 1.8em;
+    font-size: 4.5vw;
     font-style: italic;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
-    margin: 0;
+    margin: auto;
+    width: 25vw;
 }
+
+
 
 nav {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
-    font-family: var(--fonte-padrão);
+    font-family: var(--fonte-padrao);
     font-size: 0.9em;
     color: white;
-    padding: 10px;
+    
     text-shadow: 1px 1px 1px grey;
+    width: 68vw;
+    
 }
 
 nav a {
@@ -52,9 +58,12 @@ nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 10px;
     transition-duration: 0.5s;
+    width: 120px;
 }
+
+
 
 a.pagina-atual {
     background-color: #29B8E2;

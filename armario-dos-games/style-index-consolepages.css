@@ -168,7 +168,29 @@ footer {
     width: 100%;
 }
 
+div.foto {
+    display: inline-block;
+    vertical-align: top;
+}
 
+div.texto {
+    display: inline-block;
+    width: 625px;
+    padding: 20px 10px 0px 10px;    
+}
+
+#avancar-tela-grande {
+    box-shadow: 0px 0px 0px;
+    position: absolute;
+    left: 92%;
+    right: 8%;
+    top: 50%;
+}
+
+#avancar-tela-pequena {
+    position: absolute;
+    display: none;
+}
 
 @media screen and (max-width: 400px) {
     header > h1 {
@@ -180,6 +202,20 @@ footer {
         font-size: 0.8em;
         width: 43vw;
     }
+    div.texto {
+        width: 273px;
+    }
+    #avancar-tela-grande {
+        display: none;
+    }
+    #avancar-tela-pequena {
+        display: block;
+        box-shadow: 0px 0px 0px;
+        position: absolute;
+        left: 25vw;
+        top: 11.5%;
+        transform: translate(-50%);
+    }
 }
 
 @media screen and (max-width: 780px) and (min-width: 399px) {
@@ -187,16 +223,28 @@ footer {
         font-size: 50px;
         width: 30vw;
         vertical-align: middle;
-    }
-    
+    }    
     nav {
         font-size: 0.75em;
         width: 60vw;
-        vertical-align: middle;
-        
+        vertical-align: middle;       
     }
     nav a {
         width: 120px;
+    }
+    div.texto {
+        width: 342px;
+    }
+    #avancar-tela-grande {
+        display: none;
+    }
+    #avancar-tela-pequena {
+        display: block;
+        box-shadow: 0px 0px 0px;
+        position: absolute;
+        left: 90vw;
+        top: 4.5%;
+    
     }
 }
 
@@ -214,4 +262,22 @@ footer {
     nav a {
         width: 100px;
     }
+    div.texto {
+        width: 595px;
+    }
+    #avancar-tela-grande {
+        display: none;
+    }
+    #avancar-tela-pequena {
+        display: block;
+        box-shadow: 0px 0px 0px;
+        position: absolute;
+        left: 26.5vw;
+        top: 10.5%;
+    
+    }
 }
+
+
+
+
