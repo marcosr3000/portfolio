@@ -46,8 +46,7 @@ nav {
     text-align: center;
     font-family: var(--fonte-padrao);
     font-size: 0.9em;
-    color: white;
-    
+    color: white;    
     text-shadow: 1px 1px 1px grey;
     width: 68vw;
     
@@ -76,7 +75,7 @@ nav a:hover {
     box-shadow: 0px 0px 5px white;
 }
 
-main {
+main.game-pages {
     background-color: white;
     min-width: 280px;
     max-width: 1000px;
@@ -93,22 +92,22 @@ div {
     padding: 0px;
 }
 
-div.imagem {
+div.game-image {
     padding: 20px 10px 20px 20px; 
     
 }
 
-img.capa {
+img.game-cover {
     box-shadow: 2px 2px 10px black;
 }
 
-div.infos {
+div.game-infos {
     min-width: 270px;
     max-width: 445px;
     padding: 20px 10px 0px 10px;
 }
 
-div.infos > h1 {
+div.game-infos > h1 {
     margin: 0px;
     padding: 0px;    
 }
@@ -127,17 +126,17 @@ h2 {
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.092);   
 }
 
-main > p {
+main.game-pages > p {
     text-align: left;
 }
 
-.main-text {
+p.game-data {
     text-align: left;
     font-size: 0.8em;
     font-weight: lighter;
 }
 
-.links {
+div.game-links {
     display: block;
     background-color: white;
     text-align: center;
@@ -151,14 +150,14 @@ main > p {
     margin: auto;    
 }
 
-.links > a {
+div.game-links > a {
     text-decoration: none;
     color: white;
     margin-left: 30px;
     font-weight: bold;
 }
 
-.links > a:hover {
+div.game-links.links > a:hover {
     text-decoration: underline;
 }
 

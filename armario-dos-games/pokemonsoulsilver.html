@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Coleção de Games</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style-gamepages.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         @font-face {
             font-family: 'Pokemon';
@@ -16,27 +16,27 @@
             background-color: #88B9E4;
         }
 
-        main {
+        main.game-pages {
             background-color: #e2e2e285;
         }
 
-        div.infos > h1 {
+        div.game-infos > h1 {
             font-family: 'Pokemon';
             font-size: 3em;
             text-shadow: 5px 5px 50px white;
         }
 
-        div.infos > h2 {
+        div.game-infos > h2 {
             background-color: #4B61A6;
             color: white;
         }
 
-        div.links {
+        div.game-links {
             background-color: #3D4457;
             color: white;
         }
 
-        div.links > a {
+        div.game-links > a {
             color: white
         }
     </style>
@@ -53,18 +53,17 @@
             <a href="console-pages/switch.html">Nintendo Switch</a>
             
         </nav>
-        <a href="index.html" target="_self" rel="_prev"><img src="imagens/voltar.png" alt="Botão de Voltar"></a>
     </header>
     
-    <main>
-        <div class="imagem">
+    <main class="game-pages">
+        <div class="game-image">
             <picture>
                 <source media="(max-width: 750px)" srcset="imagens-grandes/pokemonsoulsilver-p.jpeg" type="image/jpeg">
-                <img class="capa" src="imagens-grandes/pokemonsoulsilver-m.jpeg" alt="Pokémon SoulSilver Cover">
+                <img class="game-cover" src="imagens-grandes/pokemonsoulsilver-m.jpeg" alt="Pokémon SoulSilver Cover">
             </picture>
         </div>
 
-        <div class="infos">
+        <div class="game-infos">
             <h1>Pokémon SoulSilver</h1>
             <audio preload="autoplay" controls autoplay>
                 <source src="audios/soulsilver-mp3.mp3" type="audio/mpeg">
@@ -72,7 +71,7 @@
                 <p>Infelizmente seu navegador não é compatível com áudio</p>
             </audio>
             <h2>Informações do jogo</h2>
-                <p class="main-text">
+                <p class="game-data">
                     <strong>Developer:</strong> Game Freak<BR>
                     <strong>Publisher:</strong> Nintendo<br>
                     <strong>Plataforma(s):</strong> Nintendo DS<br>
@@ -80,7 +79,7 @@
                     <strong>Gênero: </strong> RPG
                 </p>    
             <h2>Informações da minha cópia</h2>
-                <p class="main-text">
+                <p class="game-data">
                     <strong>Status:</strong> Pausado <br>
                     <strong>Mídia: </strong> Física <br>
                     <strong>Data de Aquisição:</strong> 04/2020 <br>
@@ -88,7 +87,7 @@
                 </p>
         </div>
        
-        <div class="links">
+        <div class="game-links">
             Links 
             <a href="#">Página Oficial</a>
             <a href="#">Bulbapedia</a>

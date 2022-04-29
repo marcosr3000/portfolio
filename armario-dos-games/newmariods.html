@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Minha Coleção de Games</title>
-    <link rel="stylesheet" href="style-gamepages.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         @font-face {
             font-family: 'New Mario DS';
@@ -17,27 +17,27 @@
             background-color: #f2b95065;
         }
         
-        main {
+        main.game-pages {
             background-color: #04B2D9;           
         }
         
-        div.infos > h1 {
+        div.game-infos > h1 {
             font-family: 'New Mario DS', Arial, Helvetica, sans-serif;
             font-size: 4em;
             color: black;
             text-shadow: 5px 5px 50px white;
         }
 
-        div.infos > h2 {
+        div.game-infos > h2 {
             background-color: yellow;   
         }
 
-        div.links {
+        div.game-links {
             background-color: #2957A7;
             color: white;
         }
 
-        div.links > a {
+        div.game-links > a {
             color: white
         }
            
@@ -52,22 +52,20 @@
             <a href="console-pages/3ds.html">Nintendo 3DS</a>
             <a href="console-pages/wii.html">Nintendo Wii</a>
             <a href="console-pages/wiiu.html">Nintendo Wii U</a>
-            <a href="console-pages/switch.html">Nintendo Switch</a>
-            
-        </nav>
-        
+            <a href="console-pages/switch.html">Nintendo Switch</a>            
+        </nav>       
     </header>
 
-    <main>
-        <div class="imagem">
+    <main class="game-pages">
+        <div class="game-image">
             <picture>
                 <source media="(max-width: 750px)" srcset="imagens-grandes/newmariods-p.png" type="image/png">
                 <source media="(max-width: 1050px)" srcset="imagens-grandes/newmariods-m.png" type="image/png">
-                <img class="capa" src="imagens-grandes/newmariods-m.png" alt="New Super Mario Bros. Cover">
+                <img class="game-cover" src="imagens-grandes/newmariods-m.png" alt="New Super Mario Bros. Cover">
             </picture>
         </div>
 
-        <div class="infos">
+        <div class="game-infos">
             <h1>NEW SUPER MARIO BROS.</h1>
         
             <audio preload="autoplay" autoplay controls>
@@ -77,7 +75,7 @@
             </audio>
         
             <h2>Informações do jogo</h2>
-                <p class="main-text">
+                <p class="game-data">
                     <strong>Developer:</strong> Nintendo EAD<BR>
                     <strong>Publisher:</strong> Nintendo<br>
                     <strong>Plataforma(s):</strong> Nintendo DS, Virtual Console Wii U<br>
@@ -85,7 +83,7 @@
                     <strong>Gênero: </strong> Plataforma<br>
                     </p>
             <h2>Informações da minha cópia</h2>
-                <p class="main-text">
+                <p class="game-data">
                     <strong>Status:</strong> Platinado <br>
                     <strong>Mídia: </strong> Física <br>
                     <strong>Data de Aquisição:</strong> 15/05/2020 <br>
@@ -93,7 +91,7 @@
                 </p>           
         </div>
         
-        <div class="links">
+        <div class="game-links">
             Links 
             <a href="#">Página Oficial</a>
             <a href="#">Mario Wiki</a>
