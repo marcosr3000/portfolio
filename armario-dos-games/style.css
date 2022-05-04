@@ -347,13 +347,21 @@ img.voltar-tela-pequena, img.avancar-tela-pequena-index, img.avancar-tela-pequen
         left: 91vw;
         top: 7.5vh;
     }
+    img.voltar-tela-pequena {
+        display: block;
+        box-shadow: 0px 0px 0px;
+        position: absolute;
+        left: 91vw;
+        top: 4vh;
+    }   
     img.avancar-tela-pequena {
         display: block;
         box-shadow: 0px 0px 0px;
         position: absolute;
         left: 91vw;
-        top: 7.5vh;
+        top: 11vh;
     }
+     
 }
 
 @media screen and (max-width: 1050px) and (min-width: 779px) {
@@ -363,12 +371,13 @@ img.voltar-tela-pequena, img.avancar-tela-pequena-index, img.avancar-tela-pequen
     }
     
     nav {
-        font-size: 0.75em;
-        width: 73vw;
-        padding-left: 15px;
+        font-size: 0.9em;
+        width: 55vw;
+        vertical-align: middle;
+        padding-left: 20px;       
     }
     nav a {
-        width: 100px;
+        width: 120px;
     }
     div.texto {
         width: 595px;
@@ -380,10 +389,22 @@ img.voltar-tela-pequena, img.avancar-tela-pequena-index, img.avancar-tela-pequen
         display: block;
         box-shadow: 0px 0px 0px;
         position: absolute;
-        left: 27.3vw;
-        top: 11.5%;
-    
+        left: 91vw;
+        top: 7.5vh;
     }
+    img.voltar-tela-pequena {
+        display: block;
+        box-shadow: 0px 0px 0px;
+        position: absolute;
+        left: 83vw;
+        top: 7.5vh;
+    }   
+    img.avancar-tela-pequena {
+        display: block;
+        box-shadow: 0px 0px 0px;
+        position: absolute;
+        left: 91vw;
+        top: 7.5vh;
 }
 
 
