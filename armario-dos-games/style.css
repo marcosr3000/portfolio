@@ -297,27 +297,27 @@ img.voltar-tela-pequena, img.avancar-tela-pequena-index, img.avancar-tela-pequen
         display: block;
         box-shadow: 0px 0px 0px;
         position: absolute;
-        left: 28vw;
+        left: 24vw;
         top: 28vh;
-        transform: translate(-50%);
+        
     }
 
     img.avancar-tela-pequena {
         display: block;
         box-shadow: 0px 0px 0px;
         position: absolute;
-        left: 35vw;
+        left: 30vw;
         top: 28vh;
-        transform: translate(-50%);
+        
     }
 
     img.voltar-tela-pequena {
         display: block;
         box-shadow: 0px 0px 0px;
         position: absolute;
-        left: 21vw;
+        left: 16vw;
         top: 28vh;
-        transform: translate(-50%);
+        
 }
 
 @media screen and (max-width: 780px) and (min-width: 399px) {
