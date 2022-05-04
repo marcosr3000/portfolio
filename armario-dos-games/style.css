@@ -257,18 +257,24 @@ div.texto {
     padding: 10px 10px 0px 10px;    
 }
 
-#avancar-tela-grande {
+img.voltar-tela-grande {
     box-shadow: 0px 0px 0px;
     position: absolute;
-    left: 92%;
-    right: 8%;
-    top: 50%;
+    left: 3.5vw;
+    top: 60vh;
+}
+img.avancar-tela-grande {
+    box-shadow: 0px 0px 0px;
+    position: absolute;
+    left: 92.5vw;
+    top: 60vh;
 }
 
-#avancar-tela-pequena {
+img.voltar-tela-pequena, img.avancar-tela-pequena-index, img.avancar-tela-pequena {
     position: absolute;
     display: none;
 }
+
 
 
 @media screen and (max-width: 400px) {
@@ -284,17 +290,34 @@ div.texto {
     div.texto {
         width: 273px;
     }
-    #avancar-tela-grande {
+    img.avancar-tela-grande, img.voltar-tela-grande {
         display: none;
     }
-    #avancar-tela-pequena {
+    img.avancar-tela-pequena-index {
         display: block;
         box-shadow: 0px 0px 0px;
         position: absolute;
         left: 28vw;
-        top: 12%;
+        top: 28vh;
         transform: translate(-50%);
     }
+
+    img.avancar-tela-pequena {
+        display: block;
+        box-shadow: 0px 0px 0px;
+        position: absolute;
+        left: 35vw;
+        top: 28vh;
+        transform: translate(-50%);
+    }
+
+    img.voltar-tela-pequena {
+        display: block;
+        box-shadow: 0px 0px 0px;
+        position: absolute;
+        left: 21vw;
+        top: 28vh;
+        transform: translate(-50%);
 }
 
 @media screen and (max-width: 780px) and (min-width: 399px) {
@@ -314,16 +337,22 @@ div.texto {
     div.texto {
         width: 342px;
     }
-    #avancar-tela-grande {
+    img.avancar-tela-grande, img.voltar-tela-grande {
         display: none;
     }
-    #avancar-tela-pequena {
+    img.avancar-tela-pequena-index {
         display: block;
         box-shadow: 0px 0px 0px;
         position: absolute;
         left: 91vw;
-        top: 5.5%;
-    
+        top: 7.5vh;
+    }
+    img.avancar-tela-pequena {
+        display: block;
+        box-shadow: 0px 0px 0px;
+        position: absolute;
+        left: 91vw;
+        top: 7.5vh;
     }
 }
 
@@ -344,10 +373,10 @@ div.texto {
     div.texto {
         width: 595px;
     }
-    #avancar-tela-grande {
+    img.avancar-tela-grande, img.voltar-tela-grande {
         display: none;
     }
-    #avancar-tela-pequena {
+    img.avancar-tela-pequena-index {
         display: block;
         box-shadow: 0px 0px 0px;
         position: absolute;
