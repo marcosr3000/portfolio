@@ -345,21 +345,21 @@ img.voltar-tela-pequena, img.avancar-tela-pequena-index, img.avancar-tela-pequen
         box-shadow: 0px 0px 0px;
         position: absolute;
         left: 91vw;
-        top: 7.5vh;
+        top: 52px;
     }
     img.voltar-tela-pequena {
         display: block;
         box-shadow: 0px 0px 0px;
         position: absolute;
         left: 91vw;
-        top: 4vh;
+        top: 26px;
     }   
     img.avancar-tela-pequena {
         display: block;
         box-shadow: 0px 0px 0px;
         position: absolute;
         left: 91vw;
-        top: 11vh;
+        top: 78px;
     }
      
 }
@@ -389,7 +389,7 @@ img.voltar-tela-pequena, img.avancar-tela-pequena-index, img.avancar-tela-pequen
         display: block;
         box-shadow: 0px 0px 0px;
         position: absolute;
-        left: 91vw;
+        left: 86.5vw;
         top: 7.5vh;
     }
     img.voltar-tela-pequena {
