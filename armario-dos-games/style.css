@@ -23,6 +23,7 @@
 body {
     font-family: var(--fonte-padrao);
     background-color: #85def21b;
+    
     padding: 0px 10px 70px 10px;
     position: relative;
     min-height: calc(100vh - 70px);
@@ -172,7 +173,7 @@ img.game-cover {
 div.game-infos {
     min-width: 270px;
     max-width: 445px;
-    padding: 20px 10px 0px 10px;
+    padding: 20px 10px 20px 10px;
 }
 
 div.game-infos > h1 {
@@ -287,6 +288,7 @@ img.voltar-tela-pequena, img.avancar-tela-pequena-index, img.avancar-tela-pequen
         font-size: 0.8em;
         width: 43vw;
     }
+    
     div.texto {
         width: 273px;
     }
@@ -333,6 +335,9 @@ img.voltar-tela-pequena, img.avancar-tela-pequena-index, img.avancar-tela-pequen
     }
     nav a {
         width: 120px;
+    }
+    main.game-pages {
+        width: 540px;
     }
     div.texto {
         width: 342px;
