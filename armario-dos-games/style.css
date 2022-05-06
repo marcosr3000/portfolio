@@ -23,7 +23,6 @@
 body {
     font-family: var(--fonte-padrao);
     background-color: #85def21b;
-    
     padding: 0px 10px 70px 10px;
     position: relative;
     min-height: calc(100vh - 70px);
