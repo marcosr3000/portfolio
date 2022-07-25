@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculada de Mercado</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <h1>Calculadora de Mercado</h1>
+
+    
+    <div>
+        <input type="text" placeholder="Produto" id="product-name">
+    </div>
+    
+    <div>
+        <label for="product-measure">Qual é a medida que aparece na embalagem?</label>
+                <select onchange="xxx" id="product-measure">
+                    <option value="" disabled selected>Selecione...</option>
+                    <option value="Líquido">Líquido (l, ml)</option>
+                    <option value="Peso">Peso (kg, g, mg)</option>
+                    <option value="Tamanho">Tamanho (m, cm, mm)</option>
+                </select>
+    </div>
+    
+
+   
+    <input type="text" placeholder="Opção 1" id="option1">
+    <input type="number" placeholder="Digite o preço">
+    <input type="number" placeholder="Digite a quantidade">
+    <select class="product-measure-selection">
+        <option value="" disabled selected>Escolha a unid. de medida</option>
+    </select>
+
+    <br>
+
+    <input type="text" placeholder="Opção 2" id="option2">
+    <input type="number" placeholder="Digite o preço">
+    <input type="number" placeholder="Digite a quantidade">
+    <select class="product-measure-selection">
+        <option value="" disabled selected>Escolha a unid. de medida</option>
+    </select>
+
+    <br>
+    
+    <input type="text" placeholder="Opção 3" id="option3">
+    <input type="number" placeholder="Digite o preço">
+    <input type="number" placeholder="Digite a quantidade">
+    <select class="product-measure-selection">
+        <option value="" disabled selected>Escolha a unid. de medida</option>
+    </select>
+
+    <!-- kg g mg
+    l ml
+    m cm mm
+
+    Produto 2
+
+    Produto 3
+
+    Adicionar mais 1 produto para comparação
+
+    Calcular -->
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
